@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="login.css"/>
+        <title>login</title>
+    </head>
+    <body>
+    <div class="wellcome">welcome back</div>
+    
+    <div class="a">
+        
+        <div class="login">
+            <br/>
+            <div style="font-size: 30px ;">登入網站</div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <input id="username" placeholder="username" style="font-size: 30px;"></input>
+            <input id="password" placeholder="password" style="font-size: 30px;"></input>
+            <div class="search"><button onclick="search()" style="font-size: 20px;">登入</button></div>
+            <div id="result"></div>
+        </div>
+    </div>
+        
+        
+        <script>  
+            function search(){
+                let un="abcdefg";
+                let ps="12345678";
+                if(document.getElementById("username").value==un && document.getElementById("password").value==ps){
+                    window.location.href="https://franzlee.github.io/index.html"
+                }
+                else{
+                    document.getElementById("result").innerHTML="帳號或密碼錯誤";
+                }
+                
+            }
+            
+        </script>
+    </body>
+</html>
