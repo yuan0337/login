@@ -1,4 +1,4 @@
-log in to play the game
+<h1>log in to play the game</h1>
 <br/>
 username: abcdefg
 <br/>
